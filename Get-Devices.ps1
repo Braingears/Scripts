@@ -1,0 +1,1 @@
+(Get-PnpDevice -PresentOnly).Where{ $_.InstanceId -like '*VEN_*' } | sort Class,FriendlyName | ft -AutoSize
