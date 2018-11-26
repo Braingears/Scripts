@@ -1,0 +1,13 @@
+<Configuration>
+    <Add OfficeClientEdition="32" Channel="Targeted" SourcePath="\\dc2\MSOffice\Install">
+        <Product ID="O365ProPlusRetail">
+            <Language ID="en-us"/>
+        </Product>
+    </Add>
+    <Updates Enabled="TRUE" Channel="Targeted" UpdatePath="\\dc2\MSOffice\Install"/>
+    <Display Level="None" AcceptEULA="TRUE"/>
+    <Logging Level="Standard" Path="%temp%"/>
+    <Property Name="FORCEAPPSHUTDOWN" Value="TRUE"/>
+    <Property Name="SharedComputerLicensing" Value="0"/>
+    <Property Name="PinIconsToTaskbar" Value="TRUE"/>
+</Configuration>
